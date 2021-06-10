@@ -1,0 +1,314 @@
+body,html {
+  font-size: 16px;
+  line-height: 1.4rem;
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6;
+}
+img {
+  display: block;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  background-color: #000;
+  height: 88px ;
+}
+header .nav-list {
+  display: flex;
+  padding: 0 12px 0 14px;
+  align-items: center;
+  display: none;
+}
+header .nav-list .fa-bars,
+header .nav-list .fa-chevron-down {
+  color: #b6b6b6;
+  font-size: 20px;
+}
+header .nav-list .fa-chevron-down {
+  margin-left: 8px;
+}
+header .inner {
+  display: flex;
+  width: 100%;
+  margin: 0 10px;
+  padding: 0 40px;
+  justify-content: space-between;
+}
+header .main .main-list {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  display: none;
+}
+header .main .main-list li{
+  width: 318px;
+  height: 44px;
+  padding: 12px 0;
+  margin: 0 15px;
+  border-bottom: 1px solid #282828;
+  display: flex;
+  align-items: center;
+}
+header .main .main-list li:last-child{
+  content: "";
+  border-bottom: none;
+}
+header .main .main-list li:hover{
+  color: #fff;
+  background-color: rgb(19, 96, 211);
+  cursor: pointer;
+}
+header .main .main-list a {
+  text-decoration: none;
+  color: #282828;
+}
+header .logo {
+  width: 8.25rem;
+}
+header .logo img {
+  width: 100%;
+  margin: 26px 0;
+}
+header .container {
+  color: #b6b6b6;
+  background-color: #000;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+header .container .container-menu {
+  display: flex;
+  justify-content: flex-end;
+  height: 44px;
+  align-content: center;
+}
+header .container .container-menu .lang {
+  padding: 0 14px 0 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid #000;
+  color: #b6b6b6;
+  background-color: #000;
+  font-size: 14px;
+}
+header .container-menu .fa-globe {
+  font-size: 1.25rem;
+}
+header .container-menu .lang span {
+  margin: 0 4px 0 8px;
+}
+header .container-menu .lang span:hover {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+header .container-menu .fa-chevron-down {
+  margin-left: 4px;
+  position: absolute;
+  top: 14px;
+  right: 0;
+}
+#lang-list {
+  background-color: #fff;
+  color: #282828;
+  position: absolute;
+  top: 43px;
+  right: 260px;
+  z-index: 1;
+  display: none;
+}
+#lang-list.show{
+  display: block;
+}
+#lang-list li{
+  width: 288px;
+  height: 20px;
+  padding: 12px 0;
+  margin: 0 15px;
+  border-bottom: 1px solid #333;
+}
+#lang-list li:hover{
+  background-color: rgb(19, 96, 211);
+  color: #fff;
+  cursor: pointer;
+}
+#lang-list li:last-child{
+  border-bottom: none;
+}
+header .container-menu .hyattworld {
+  display: flex;
+  align-content: center;
+}
+header .container-menu .hyattworld a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #b6b6b6;
+  margin: 12px 15px 0;
+}
+header .container-menu .hyattworld a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+header .container .container-menu .login {
+  padding: 0 14px 0 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid #000;
+  color: #b6b6b6;
+  background-color: #000;
+  font-size: 14px;
+}
+header .container-menu .login .fa-user {
+  font-size: 1.25rem;
+}
+header .container-menu .login span {
+  margin: 0 4px 0 8px;
+}
+header .container-menu .login span:hover {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+#login-list {
+  background-color: #fff;
+  color: #282828;
+  position: absolute;
+  top: 43px;
+  right: 50px;
+  z-index: 1;
+  display: block;
+  border: 1px solid #282828;
+  padding: 15px 0;
+  display: none;
+}
+#login-list.show {
+  display: block;
+}
+#login-list h1 {
+  width: 288px;
+  height: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #282828;
+}
+#login-list .btn {
+  display: block;
+  width: 288px;
+  height: 44px;
+  padding: 10px 30px;
+  margin: 16px auto;
+  box-sizing: border-box;
+}
+#login-list .btn:hover {
+  cursor: pointer;
+}
+#login-list .btn-login {
+  background-color: rgb(19, 96, 211);
+  color: #fff;
+  border: 1px solid rgb(19, 96, 211);
+  font-size: 17px;
+}
+#login-list .btn-signup {
+  background-color: #fff;
+  border: 1px solid rgb(19,96,211);
+  color: rgb(19, 96, 211);
+  font-size: 17px;
+}
+#login-list li {
+  width: 288px;
+  height: 20px;
+  padding: 12px 0;
+  margin: 0 15px;
+  border-bottom: 1px solid #333;
+}
+#login-list li:hover {
+  cursor: pointer;
+  background-color: rgb(19, 96, 211);
+  color: #fff;
+}
+header .container-menu .login .fa-chevron-down {
+  margin-left: 4px;
+  position: absolute;
+  top: 14px;
+  right: 0;
+}
+header .container .nav-bar {
+  display: flex;
+  margin: 10px 0 7px;
+}
+header .container .nav-bar li {
+  list-style: none;
+}
+header .container .nav-bar li a{
+  text-decoration: none;
+  color: #b6b6b6;
+  margin-right: 8px;
+}
+header .container .nav-bar li::before {
+ content: "|";
+ color: #b6b6b6;
+ margin-right: 8px;
+ margin-left: 8px;
+}
+header .container .nav-bar li:first-child::before {
+  content: "";
+}
+header .container .nav-bar li a:last-child {
+  margin-right: 0;
+}
+
+/* .search {
+
+}
+.search .inner {
+  padding: 0 14px;
+} */
+
+@media screen and (max-width : 768px) {
+  header {
+    height: 44px;
+  }
+  header .inner {
+    padding: 0;
+  }
+  header .main {
+    display: flex;
+  }
+  header .container {
+    display: flex;
+  }
+  header .nav-list {
+    display: flex;
+  }
+  header .logo {
+    border-left: 1px solid #b6b6b6;
+  }
+  header .logo img {
+    width: 66px;
+    margin: 13px 0;
+    padding-left: 10px;
+  }
+  header .nav-bar li {
+    display: none;
+  }
+  #lang-list {
+    right: 210px;
+  }
+  #login-list {
+    right: 0;
+  }
+  .main .main-list.show {
+    display: block;
+  }
+}
