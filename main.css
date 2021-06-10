@@ -4,6 +4,7 @@ body,html {
   width: 100%;
   height: 100%;
   background: #f6f6f6;
+  color: #282828;
 }
 img {
   display: block;
@@ -62,7 +63,7 @@ header .main .main-list li:last-child{
 }
 header .main .main-list li:hover{
   color: #fff;
-  background-color: rgb(19, 96, 211);
+  background-color: #0072ce;
   cursor: pointer;
 }
 header .main .main-list a {
@@ -136,7 +137,7 @@ header .container-menu .fa-chevron-down {
   border-bottom: 1px solid #333;
 }
 #lang-list li:hover{
-  background-color: rgb(19, 96, 211);
+  background-color: #0072ce;
   color: #fff;
   cursor: pointer;
 }
@@ -210,19 +211,20 @@ header .container-menu .login span:hover {
   margin: 16px auto;
   box-sizing: border-box;
 }
-#login-list .btn:hover {
+#login-list .btn-login:hover {
   cursor: pointer;
+  background-color: #407bae;
 }
 #login-list .btn-login {
-  background-color: rgb(19, 96, 211);
+  background-color: #0072ce;
   color: #fff;
-  border: 1px solid rgb(19, 96, 211);
+  border: 1px solid #0072ce;
   font-size: 17px;
 }
 #login-list .btn-signup {
   background-color: #fff;
-  border: 1px solid rgb(19,96,211);
-  color: rgb(19, 96, 211);
+  border: 1px solid #0072ce;
+  color: #0072ce;
   font-size: 17px;
 }
 #login-list li {
@@ -234,7 +236,7 @@ header .container-menu .login span:hover {
 }
 #login-list li:hover {
   cursor: pointer;
-  background-color: rgb(19, 96, 211);
+  background-color: #0072ce;
   color: #fff;
 }
 header .container-menu .login .fa-chevron-down {
@@ -275,6 +277,62 @@ header .container .nav-bar li a:last-child {
   padding: 0 14px;
 } */
 
+/* YOUTUBE */
+.youtube{
+  height: 605px;
+}
+.youtube .inner {
+  padding: 0 55px;
+  margin: 0 auto;
+}
+.youtube h1 {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  box-sizing: border-box;
+  margin-bottom: 36px;
+}
+.youtube .video-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.youtube .video-container .video {
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/hyatt_together_gallery_v2.mp4');
+}
+.youtube .youtube-detail {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 1170px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.youtube .youtube-text h2 {
+ box-sizing: border-box;
+ font-size: 36px;
+ text-align: center;
+ margin-bottom: 12px;
+}
+.youtube .youtube-detail .youtube-btn {
+  display: flex;
+  justify-content: center;
+}
+.youtube .youtube-detail .youtube-btn .btn-detail{
+  padding: 10px 30px;
+  border: 1px solid #0072ce;
+  background-color: #0072ce;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 24px;
+  box-sizing: border-box;
+}
+.youtube .youtube-detail .youtube-btn .btn-detail:hover{
+  background-color: #407bae;
+  cursor: pointer;
+  
+}
 @media screen and (max-width : 768px) {
   header {
     height: 44px;
