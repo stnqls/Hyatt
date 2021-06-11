@@ -5,6 +5,7 @@ body,html {
   height: 100%;
   background: #f6f6f6;
   color: #282828;
+  display: block;
 }
 img {
   display: block;
@@ -277,13 +278,16 @@ header .container .nav-bar li a:last-child {
   padding: 0 14px;
 } */
 
+
 /* YOUTUBE */
+
 .youtube{
-  height: 605px;
+  height: 100%;
 }
 .youtube .inner {
   padding: 0 55px;
-  margin: 0 auto;
+  margin: 0 auto 54px;
+  box-sizing: border-box;
 }
 .youtube h1 {
   display: block;
@@ -298,7 +302,6 @@ header .container .nav-bar li a:last-child {
 }
 .youtube .video-container .video {
   width: 100%;
-  height: 100%;
   background-image: url('./images/hyatt_together_gallery_v2.mp4');
 }
 .youtube .youtube-detail {
@@ -331,8 +334,61 @@ header .container .nav-bar li a:last-child {
 .youtube .youtube-detail .youtube-btn .btn-detail:hover{
   background-color: #407bae;
   cursor: pointer;
-  
 }
+
+.photoes {
+  display: block;
+}
+.photoes .photo-first {
+  width: 100%;
+  padding: 45px 55px 60px;
+  background-color: lightblue;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.photoes .photo-first .photo {
+  padding: 0 9px 18px;
+  box-sizing: border-box;
+  max-height: 467px;
+}
+.photoes .photo-first .photo img {
+  max-height: 286px;
+}
+.photoes .photo-first .photo .photo-description {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+}
+.photoes .photo-description h2{
+  font-size: 30px;
+  padding: 12px 0 12px;
+  line-height: .9;
+}
+.photoes .photo-description .line{
+  width: 14%;
+  border-top: 1px solid #000;
+  margin: auto;
+}
+.photoes .photo-description p{
+  font-size: 87.5%;
+  margin-top: 12px;
+  padding-bottom: 12px;
+  line-height: 1.3;
+  display: block;
+}
+.photoes .photo-description a {
+  display: block;
+  margin: 12px 0;
+  padding-bottom: 12px;
+  text-decoration: none;
+  color: #407bae;
+}
+
+
+
 @media screen and (max-width : 768px) {
   header {
     height: 44px;
