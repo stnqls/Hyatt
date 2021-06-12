@@ -342,7 +342,6 @@ header .container .nav-bar li a:last-child {
 .photoes .photo-first {
   width: 100%;
   padding: 45px 55px 60px;
-  background-color: lightblue;
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
@@ -361,6 +360,7 @@ header .container .nav-bar li a:last-child {
   height: 200px;
   background-color: #fff;
   text-align: center;
+  box-shadow: 0 3px 6px 0 rgba(0,0, 0,7%);
 }
 .photoes .photo-description h2{
   font-size: 30px;
@@ -386,8 +386,30 @@ header .container .nav-bar li a:last-child {
   text-decoration: none;
   color: #407bae;
 }
-
-
+.photoes .photo-second {
+  width: 1140px;
+  height: 285.99px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 9px;
+}
+.photo-second img {
+  width: 760px;
+  height: 286px;
+}
+.photo-second .photo-description {
+  width: 380px;
+  height: 285.99px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0,0, 0,7%);
+  padding: 6px 18px;
+  text-align: center;
+}
+.photo-second .texture {
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
 
 @media screen and (max-width : 768px) {
   header {
