@@ -1,9 +1,13 @@
 # 하얏트홈페이지 만들어보기
 
 ## 완성된 홈페이지
+<img width= "80%" src = "https://user-images.githubusercontent.com/81519415/122065552-ffc64980-ce2c-11eb-9d44-8b88a2cea9e7.png"/>
 
+<hr>
 
 ### date선택
+<img width="70%" src= "https://user-images.githubusercontent.com/81519415/122065765-297f7080-ce2d-11eb-95ff-2539c86ed206.PNG" />
+
 ```html
   <!-- DATEPICKER -->
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" />
@@ -21,6 +25,8 @@ $(".Date" ).datepicker({
 <hr>
 
 ### 이미지 슬라이드
+<img width ="70%" src= "https://user-images.githubusercontent.com/81519415/122065612-0ce33880-ce2d-11eb-9bc3-850d2ea8d8b4.PNG"/>
+
 ```html
  <!-- SWIPER 사용 -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
